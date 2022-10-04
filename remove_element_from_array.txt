@@ -1,0 +1,2 @@
+loop barabar chala
+jab tak usko target me jo variable hai aur arr[i] me agar same variable hai so skip kar and if nahi hai toh

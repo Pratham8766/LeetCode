@@ -1,0 +1,11 @@
+int [] arr = {0,0,1,1,2,2,3,3,4}
+               i  j
+values = 0 0 1 1 2 2 3 3 4
+index =  0 1 2 3 4 5 6 7 8
+              
+
+
+two pointers are used 
+pehla pointer(i) 0th index pe aur second pointer(j) 1st index pe
+1st index se loop chala
+sabse pehle arr[i] ki value 0 hai aur arr[j] ki value 0 same hai toh if condition me nhi ghusega aur uske baad j ki value increment hogi and jab arr[j] aur arr[i] ki value same nhi hai toh ab if condition me ghusega aur i ki value increment karega aur fhir uske baad  arr[i] me arr[j] ki value ghusayega
